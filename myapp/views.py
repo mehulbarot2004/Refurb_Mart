@@ -41,6 +41,7 @@ def fetchregister(request):
 
 def fetchlogin(request):
     #form to variable
+    
 
     uname=request.POST.get("user-name")
     upassword = request.POST.get("user-password")
